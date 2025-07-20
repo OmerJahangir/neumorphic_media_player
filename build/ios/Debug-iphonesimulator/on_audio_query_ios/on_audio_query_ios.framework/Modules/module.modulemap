@@ -1,0 +1,11 @@
+framework module on_audio_query_ios {
+  umbrella header "on_audio_query_ios-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module on_audio_query_ios.Swift {
+  header "on_audio_query_ios-Swift.h"
+  requires objc
+}

@@ -1,0 +1,11 @@
+framework module flutter_storage_path {
+  umbrella header "flutter_storage_path-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_storage_path.Swift {
+  header "flutter_storage_path-Swift.h"
+  requires objc
+}
